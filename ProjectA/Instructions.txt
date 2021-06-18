@@ -15,7 +15,7 @@ Using System.out.println(), print a menu with numbered options. For example (ple
 Please select an option:
 1. Cups to Teaspoons
 2. Miles to Kilometers
-3. US Gallons to Imperial Gallons
+3. US Gallons to Imperial Gallons // 1 US gallons to Imperial gallon = 0.83267 Imperial gallon
 4. Quit
 
 3. Use a Scanner object to collect the user's menuSelection

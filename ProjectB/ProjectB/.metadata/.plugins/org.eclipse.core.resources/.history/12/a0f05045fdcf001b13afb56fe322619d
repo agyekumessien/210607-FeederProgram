@@ -1,0 +1,26 @@
+package Game;
+
+import fixtures.Room;
+
+public class RoomManager {
+	Room startingRoom;
+	Room[] allRooms;
+	
+	public void init() {
+		Room kit = new Room("You are heading to  a small room, where you can see a kichen");
+		Room lr = new Room("You are heading to a small room1, where you can see a piano.");
+		
+		allRooms  = new Room[2];
+		allRooms[0] = kit;
+		allRooms[1] = lr;
+	
+lr.setRightExit(kit);
+
+kit.setRightExit(lr);
+
+      startingRoom = lr;
+      
+      
+	}
+
+}

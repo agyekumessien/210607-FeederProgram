@@ -1,0 +1,12 @@
+package fixtures;
+
+public class RoomManager {
+	Room startingRoom;
+	Room[] allRooms;
+	
+	public void init() {
+		Room kit = new Room( "kit");
+		
+	}
+
+}
